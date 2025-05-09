@@ -18,49 +18,49 @@ export const chatPartner: User = {
 export const mockMessages: Message[] = [
   {
     id: '1',
-    text: 'Hey there! How's it going?',
+    text: "Hey there! How's it going?",
     senderId: 'user2',
     timestamp: Date.now() - 1000 * 60 * 24,
     status: 'read'
   },
   {
     id: '2',
-    text: 'Hi! I'm doing well, thanks for asking. Just working on a new project.',
+    text: "Hi! I'm doing well, thanks for asking. Just working on a new project.",
     senderId: 'user1',
     timestamp: Date.now() - 1000 * 60 * 23,
     status: 'read'
   },
   {
     id: '3',
-    text: 'That sounds interesting! What kind of project is it?',
+    text: "That sounds interesting! What kind of project is it?",
     senderId: 'user2',
     timestamp: Date.now() - 1000 * 60 * 22,
     status: 'read'
   },
   {
     id: '4',
-    text: 'I'm building a real-time chat application with React!',
+    text: "I'm building a real-time chat application with React!",
     senderId: 'user1',
     timestamp: Date.now() - 1000 * 60 * 21,
     status: 'read'
   },
   {
     id: '5',
-    text: 'That's awesome! I've been thinking about learning React myself.',
+    text: "That's awesome! I've been thinking about learning React myself.",
     senderId: 'user2',
     timestamp: Date.now() - 1000 * 60 * 20,
     status: 'read'
   },
   {
     id: '6',
-    text: 'You definitely should. It's really powerful and the community is great.',
+    text: "You definitely should. It's really powerful and the community is great.",
     senderId: 'user1',
     timestamp: Date.now() - 1000 * 60 * 19,
     status: 'read'
   },
   {
     id: '7',
-    text: 'Do you have any recommended resources for beginners?',
+    text: "Do you have any recommended resources for beginners?",
     senderId: 'user2',
     timestamp: Date.now() - 1000 * 60 * 5,
     status: 'delivered'
